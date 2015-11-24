@@ -5,7 +5,7 @@ Sass module for typography at RightScale.
 ## Install
 
 ```bash
-npm i designkit-spinners
+npm i designkit-typography
 ```
 
 ## Author
