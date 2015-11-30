@@ -1,10 +1,10 @@
 {
-  "name": "designkit-tyopgraphy",
+  "name": "designkit-typography",
   "version": "0.0.1",
   "description": "Sass module for typography at RightScale.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rightscale-design/designkit-tyopgraphy.git"
+    "url": "git+https://github.com/rightscale-design/designkit-typography.git"
   },
   "author": {
     "name": "Jason Melgoza",
@@ -12,9 +12,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rightscale-design/designkit-tyopgraphy/issues"
+    "url": "https://github.com/rightscale-design/designkit-typography/issues"
   },
-  "homepage": "https://github.com/rightscale-design/designkit-tyopgraphy#readme",
+  "homepage": "https://github.com/rightscale-design/designkit-typography#readme",
   "dependencies": {
     "bourbon": "^4.2.6"
   },
