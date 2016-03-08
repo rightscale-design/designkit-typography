@@ -1,11 +1,15 @@
 {
   "name": "designkit-typography",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sass module for typography at RightScale.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rightscale-design/designkit-typography.git"
   },
+  "keywords": [
+    "css",
+    "Sass"
+  ],
   "author": {
     "name": "Jason Melgoza",
     "email": "jason@rightscale.com"
