@@ -1,8 +1,25 @@
 @charset "UTF-8";
 
-//
-// Designkit-Typography
-// --------------------------------------------------
+// Variables
+// ------------------------------
+
+// Families
+$sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headline: "Bariol", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Weights
+$sans-light: 300; // For lighter text
+$sans-regular: 400; // Use for general text
+$sans-medium: 500; // Use for bolder text on light backgrounds
+$sans-semibold: 600; // Use for text that is "active" e.g. selected item in list
+$sans-bold: 700; // Use for buttons, tabs and bold text on darker bakcgrounds e.g. navigation
+
+$headline-light: 300;
+$headline-regular: 400;
+$headline-bold: 500;
+
+// Defaults
+// ------------------------------
 
 body {
   font-family:
@@ -85,6 +102,24 @@ hr {
   border-bottom-color: #ccc;
 }
 
+// Utilites
+// ------------------------------
+
+// Families
+.sans { font-family: $sans }
+.headline { font-family: $headline }
+
+// Weights
+.sans-light { font-weight: $sans-bold }
+.sans-regular { font-weight: $sans-regular }
+.sans-medium { font-weight: $sans-medium }
+.sans-semibold { font-weight: $sans-semibold }
+.sans-bold { font-weight: $sans-bold }
+.headline-light { font-weight: $headline-light }
+.headline-regular { font-weight: $headline-regular }
+.headline-bold { font-weight: $headline-regular }
+
+// Sizes
 .f1 { font-size: 2rem }
 .f2 { font-size: 1.5rem }
 .f3 { font-size: 1.25rem }
@@ -92,21 +127,15 @@ hr {
 .f5 { font-size: 0.875rem }
 .f6 { font-size: 0.75rem }
 
-.helvetica {
-  font-family: $helvetica;
-}
-.bariol {
-  font-family: "bariol", Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-
+// Miscellaneous
 .font-family-inherit { font-family: inherit }
 .font-size-inherit { font-size: inherit }
 .text-decoration-none { text-decoration: none }
 
-.bold    { font-weight: var(--bold-font-weight, bold) }
+.bold    { font-weight: bold }
 .regular { font-weight: normal }
 .italic  { font-style: italic }
-.caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
+.caps    { text-transform: uppercase; letter-spacing: 1 }
 
 .left-align   { text-align: left }
 .center       { text-align: center }
@@ -123,15 +152,3 @@ hr {
 
 .list-style-none { list-style: none }
 .underline { text-decoration: underline }
-
-.truncate {
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.list-reset {
-  list-style: none;
-  padding-left: 0;
-}
