@@ -1,18 +1,11 @@
-# Designkit Typography
+# designkit-typography
+1.1.0
 
 Sass module for typography at RightScale.
 
 ## Install
-
-```bash
-npm i designkit-typography
 ```
-
-## Usage
-
-```html
-<div class="headline f3 line-height-1">Headline Text</div>
-<div class="bold f4">Bold body text</div>
+npm i --save designkit-typography
 ```
 
 ## CSS
@@ -244,6 +237,7 @@ hr {
 .underline {
   text-decoration: underline;
 }
+
 ```
 
 ## Author
