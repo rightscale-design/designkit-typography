@@ -8,7 +8,7 @@ Sass module for typography at RightScale.
 npm i --save designkit-typography
 ```
 
-### CSS
+## CSS
 
 ```css
 body {
