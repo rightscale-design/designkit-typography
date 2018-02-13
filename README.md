@@ -1,5 +1,5 @@
 # designkit-typography
-1.1.0
+1.1.1
 
 Sass module for typography at RightScale.
 

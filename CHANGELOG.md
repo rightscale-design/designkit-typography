@@ -1,3 +1,9 @@
+# v1.1.1
+
+* Updated package.json
+* Updated docs
+* Updated scss script for new designkit-colors path
+
 # v1.1.0
 
 * Updated build setup
