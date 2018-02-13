@@ -1,3 +1,8 @@
+# v1.1.1
+
+* Updated package.json
+* Updated docs
+
 # v1.1.0
 
 * Updated build setup
