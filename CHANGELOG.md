@@ -2,6 +2,7 @@
 
 * Updated package.json
 * Added new sizes
+* Updated pre
 
 # v1.1.1
 
