@@ -1,5 +1,5 @@
 # designkit-typography
-1.1.1
+1.1.2
 
 Sass module for typography at RightScale.
 
@@ -26,7 +26,7 @@ body {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "bariol", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Bariol", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 1.25;
   margin-top: 1em;
@@ -159,6 +159,26 @@ hr {
 
 .f6 {
   font-size: 0.75rem;
+}
+
+.fs-xsmall {
+  font-size: 11px;
+}
+
+.fs-small {
+  font-size: 12px;
+}
+
+.fs-body {
+  font-size: 13px;
+}
+
+.fs-large {
+  font-size: 16px;
+}
+
+.fs-xlarge {
+  font-size: 18px;
 }
 
 .font-family-inherit {

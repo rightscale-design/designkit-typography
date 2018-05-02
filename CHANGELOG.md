@@ -1,3 +1,8 @@
+# v1.1.2
+
+* Updated package.json
+* Added new sizes
+
 # v1.1.1
 
 * Updated package.json

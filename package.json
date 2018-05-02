@@ -1,6 +1,6 @@
 {
   "name": "designkit-typography",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Sass module for typography at RightScale.",
   "homepage": "https://github.com/rightscale-design/designkit-typography#readme",
   "repository": {
@@ -37,13 +37,13 @@
   ],
   "devDependencies": {
     "autoprefixer": "^6.4.0",
-    "csso": "^3.1.1",
+    "csso": "^3.5.0",
     "designkit-colors": "^1.1.0",
-    "lodash": "^4.17.5",
-    "node-sass": "^4.5.3",
-    "nodemon": "^1.10.0",
+    "lodash": "^4.17.10",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.3",
     "npm-run-all": "^2.3.0",
-    "serve": "^6.0.6"
+    "serve": "^6.5.6"
   },
   "scripts": {
     "start": "npm run build:serve",
