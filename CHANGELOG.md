@@ -1,8 +1,11 @@
+# v1.1.3
+
+* Set pre overflow to auto
+
 # v1.1.2
 
 * Updated package.json
 * Added new sizes
-* Updated pre
 
 # v1.1.1
 

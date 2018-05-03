@@ -62,7 +62,7 @@ code, samp {
 
 pre {
   font-size: 87.5%;
-  overflow: scroll;
+  overflow: auto;
 }
 
 blockquote {

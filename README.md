@@ -1,5 +1,5 @@
 # designkit-typography
-1.1.2
+1.1.3
 
 Sass module for typography at RightScale.
 
@@ -75,7 +75,7 @@ code, samp {
 
 pre {
   font-size: 87.5%;
-  overflow: scroll;
+  overflow: auto;
 }
 
 blockquote {
